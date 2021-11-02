@@ -36,4 +36,13 @@
         app:layout_constraintTop_toBottomOf="@id/jogarDadoBt"
         />
 
+    <ImageView
+        android:id="@+id/resultadoIv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resultadoTv"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
